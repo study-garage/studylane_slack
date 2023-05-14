@@ -95,7 +95,7 @@ app.command('/studylane', async ({ ack, body, client, logger }) => {
     };
   
     request.post({
-      url:     'http://192.168.1.144:8080/api/subscribe',
+      url:     'http://45.79.160.133:8080/api/subscribe',
       headers: {
           'Content-Type': 'application/json'
         },
